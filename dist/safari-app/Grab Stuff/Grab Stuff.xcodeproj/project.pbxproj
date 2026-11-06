@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8BCCA64309DBA6300E509F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BCCA63309DBA6300E509F6 /* AppDelegate.swift */; };
+		A8BCCA68309DBA6300E509F6 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = A8BCCA66309DBA6300E509F6 /* Main.html */; };
+		A8BCCA6A309DBA6300E509F6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8BCCA69309DBA6300E509F6 /* Icon.png */; };
+		A8BCCA6C309DBA6300E509F6 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = A8BCCA6B309DBA6300E509F6 /* Style.css */; };
+		A8BCCA6E309DBA6300E509F6 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = A8BCCA6D309DBA6300E509F6 /* Script.js */; };
+		A8BCCA70309DBA6300E509F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BCCA6F309DBA6300E509F6 /* ViewController.swift */; };
+		A8BCCA73309DBA6300E509F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8BCCA71309DBA6300E509F6 /* Main.storyboard */; };
+		A8BCCA75309DBA6400E509F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BCCA74309DBA6400E509F6 /* Assets.xcassets */; };
+		A8BCCA7C309DBA6400E509F6 /* Grab Stuff Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A8BCCA7B309DBA6400E509F6 /* Grab Stuff Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A8BCCA81309DBA6400E509F6 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BCCA80309DBA6400E509F6 /* SafariWebExtensionHandler.swift */; };
+		A8BCCA92309DBA6400E509F6 /* core.js in Resources */ = {isa = PBXBuildFile; fileRef = A8BCCA8D309DBA6400E509F6 /* core.js */; };
+		A8BCCA93309DBA6400E509F6 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = A8BCCA8E309DBA6400E509F6 /* background.js */; };
+		A8BCCA94309DBA6400E509F6 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = A8BCCA8F309DBA6400E509F6 /* icons */; };
+		A8BCCA95309DBA6400E509F6 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = A8BCCA90309DBA6400E509F6 /* manifest.json */; };
+		A8BCCA96309DBA6400E509F6 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = A8BCCA91309DBA6400E509F6 /* content.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8BCCA7D309DBA6400E509F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8BCCA58309DBA6300E509F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8BCCA7A309DBA6400E509F6;
+			remoteInfo = "Grab Stuff Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A8BCCA88309DBA6400E509F6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A8BCCA7C309DBA6400E509F6 /* Grab Stuff Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A8BCCA60309DBA6300E509F6 /* Grab Stuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grab Stuff.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8BCCA63309DBA6300E509F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8BCCA67309DBA6300E509F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		A8BCCA69309DBA6300E509F6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A8BCCA6B309DBA6300E509F6 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		A8BCCA6D309DBA6300E509F6 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		A8BCCA6F309DBA6300E509F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8BCCA72309DBA6300E509F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8BCCA74309DBA6400E509F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8BCCA76309DBA6400E509F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8BCCA7B309DBA6400E509F6 /* Grab Stuff Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Grab Stuff Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8BCCA80309DBA6400E509F6 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		A8BCCA82309DBA6400E509F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8BCCA8D309DBA6400E509F6 /* core.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = core.js; path = Resources/core.js; sourceTree = "<group>"; };
+		A8BCCA8E309DBA6400E509F6 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = Resources/background.js; sourceTree = "<group>"; };
+		A8BCCA8F309DBA6400E509F6 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = Resources/icons; sourceTree = "<group>"; };
+		A8BCCA90309DBA6400E509F6 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		A8BCCA91309DBA6400E509F6 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = Resources/content.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8BCCA5D309DBA6300E509F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8BCCA78309DBA6400E509F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8BCCA57309DBA6300E509F6 = {
+			isa = PBXGroup;
+			children = (
+				A8BCCA62309DBA6300E509F6 /* Grab Stuff */,
+				A8BCCA7F309DBA6400E509F6 /* Grab Stuff Extension */,
+				A8BCCA61309DBA6300E509F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8BCCA61309DBA6300E509F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8BCCA60309DBA6300E509F6 /* Grab Stuff.app */,
+				A8BCCA7B309DBA6400E509F6 /* Grab Stuff Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8BCCA62309DBA6300E509F6 /* Grab Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				A8BCCA63309DBA6300E509F6 /* AppDelegate.swift */,
+				A8BCCA6F309DBA6300E509F6 /* ViewController.swift */,
+				A8BCCA71309DBA6300E509F6 /* Main.storyboard */,
+				A8BCCA74309DBA6400E509F6 /* Assets.xcassets */,
+				A8BCCA76309DBA6400E509F6 /* Info.plist */,
+				A8BCCA65309DBA6300E509F6 /* Resources */,
+			);
+			path = "Grab Stuff";
+			sourceTree = "<group>";
+		};
+		A8BCCA65309DBA6300E509F6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A8BCCA66309DBA6300E509F6 /* Main.html */,
+				A8BCCA69309DBA6300E509F6 /* Icon.png */,
+				A8BCCA6B309DBA6300E509F6 /* Style.css */,
+				A8BCCA6D309DBA6300E509F6 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A8BCCA7F309DBA6400E509F6 /* Grab Stuff Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A8BCCA8C309DBA6400E509F6 /* Resources */,
+				A8BCCA80309DBA6400E509F6 /* SafariWebExtensionHandler.swift */,
+				A8BCCA82309DBA6400E509F6 /* Info.plist */,
+			);
+			path = "Grab Stuff Extension";
+			sourceTree = "<group>";
+		};
+		A8BCCA8C309DBA6400E509F6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A8BCCA8D309DBA6400E509F6 /* core.js */,
+				A8BCCA8E309DBA6400E509F6 /* background.js */,
+				A8BCCA8F309DBA6400E509F6 /* icons */,
+				A8BCCA90309DBA6400E509F6 /* manifest.json */,
+				A8BCCA91309DBA6400E509F6 /* content.js */,
+			);
+			name = Resources;
+			path = "Grab Stuff Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8BCCA5F309DBA6300E509F6 /* Grab Stuff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8BCCA89309DBA6400E509F6 /* Build configuration list for PBXNativeTarget "Grab Stuff" */;
+			buildPhases = (
+				A8BCCA5C309DBA6300E509F6 /* Sources */,
+				A8BCCA5D309DBA6300E509F6 /* Frameworks */,
+				A8BCCA5E309DBA6300E509F6 /* Resources */,
+				A8BCCA88309DBA6400E509F6 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8BCCA7E309DBA6400E509F6 /* PBXTargetDependency */,
+			);
+			name = "Grab Stuff";
+			packageProductDependencies = (
+			);
+			productName = "Grab Stuff";
+			productReference = A8BCCA60309DBA6300E509F6 /* Grab Stuff.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8BCCA7A309DBA6400E509F6 /* Grab Stuff Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8BCCA85309DBA6400E509F6 /* Build configuration list for PBXNativeTarget "Grab Stuff Extension" */;
+			buildPhases = (
+				A8BCCA77309DBA6400E509F6 /* Sources */,
+				A8BCCA78309DBA6400E509F6 /* Frameworks */,
+				A8BCCA79309DBA6400E509F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grab Stuff Extension";
+			packageProductDependencies = (
+			);
+			productName = "Grab Stuff Extension";
+			productReference = A8BCCA7B309DBA6400E509F6 /* Grab Stuff Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8BCCA58309DBA6300E509F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					A8BCCA5F309DBA6300E509F6 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					A8BCCA7A309DBA6400E509F6 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+				};
+			};
+			buildConfigurationList = A8BCCA5B309DBA6300E509F6 /* Build configuration list for PBXProject "Grab Stuff" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8BCCA57309DBA6300E509F6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A8BCCA61309DBA6300E509F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8BCCA5F309DBA6300E509F6 /* Grab Stuff */,
+				A8BCCA7A309DBA6400E509F6 /* Grab Stuff Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8BCCA5E309DBA6300E509F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BCCA6A309DBA6300E509F6 /* Icon.png in Resources */,
+				A8BCCA73309DBA6300E509F6 /* Main.storyboard in Resources */,
+				A8BCCA6E309DBA6300E509F6 /* Script.js in Resources */,
+				A8BCCA68309DBA6300E509F6 /* Main.html in Resources */,
+				A8BCCA75309DBA6400E509F6 /* Assets.xcassets in Resources */,
+				A8BCCA6C309DBA6300E509F6 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8BCCA79309DBA6400E509F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BCCA95309DBA6400E509F6 /* manifest.json in Resources */,
+				A8BCCA94309DBA6400E509F6 /* icons in Resources */,
+				A8BCCA93309DBA6400E509F6 /* background.js in Resources */,
+				A8BCCA92309DBA6400E509F6 /* core.js in Resources */,
+				A8BCCA96309DBA6400E509F6 /* content.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8BCCA5C309DBA6300E509F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BCCA70309DBA6300E509F6 /* ViewController.swift in Sources */,
+				A8BCCA64309DBA6300E509F6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8BCCA77309DBA6400E509F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BCCA81309DBA6400E509F6 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8BCCA7E309DBA6400E509F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8BCCA7A309DBA6400E509F6 /* Grab Stuff Extension */;
+			targetProxy = A8BCCA7D309DBA6400E509F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8BCCA66309DBA6300E509F6 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8BCCA67309DBA6300E509F6 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		A8BCCA71309DBA6300E509F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8BCCA72309DBA6300E509F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8BCCA83309DBA6400E509F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8BCCA84309DBA6400E509F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A8BCCA86309DBA6400E509F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Grab Stuff Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Grab Stuff Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.grabstuff.Grab-Stuff.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A8BCCA87309DBA6400E509F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Grab Stuff Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Grab Stuff Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.grabstuff.Grab-Stuff.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A8BCCA8A309DBA6400E509F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Grab Stuff/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Grab Stuff";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grabstuff.Grab-Stuff";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A8BCCA8B309DBA6400E509F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Grab Stuff/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Grab Stuff";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grabstuff.Grab-Stuff";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8BCCA5B309DBA6300E509F6 /* Build configuration list for PBXProject "Grab Stuff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BCCA83309DBA6400E509F6 /* Debug */,
+				A8BCCA84309DBA6400E509F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8BCCA85309DBA6400E509F6 /* Build configuration list for PBXNativeTarget "Grab Stuff Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BCCA86309DBA6400E509F6 /* Debug */,
+				A8BCCA87309DBA6400E509F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8BCCA89309DBA6400E509F6 /* Build configuration list for PBXNativeTarget "Grab Stuff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BCCA8A309DBA6400E509F6 /* Debug */,
+				A8BCCA8B309DBA6400E509F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8BCCA58309DBA6300E509F6 /* Project object */;
+}

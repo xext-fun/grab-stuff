@@ -1,0 +1,10 @@
+{
+  "name": "grab-stuff",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "package:safari": "node scripts/package-safari.mjs",
+    "test": "node --test"
+  }
+}
